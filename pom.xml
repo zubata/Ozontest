@@ -101,14 +101,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <!--<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    &lt;!&ndash; put your configurations here &ndash;&gt;
-                </configuration>
-            </plugin>-->
         </plugins>
     </build>
 

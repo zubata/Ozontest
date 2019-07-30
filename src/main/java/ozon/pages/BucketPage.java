@@ -41,7 +41,7 @@ public class BucketPage extends BasePage {
     public WebElement toHomePage;
 
     @FieldName(name = "итоговая цена")
-    @FindBy(xpath = "//div[@data-test-id='total-price-block']//span[@class='price-number']")
+    @FindBy(xpath = "//div[@data-test-id='total-price-block']//span[contains(@class,'price-')]")
     public WebElement finalPrice;
 
 

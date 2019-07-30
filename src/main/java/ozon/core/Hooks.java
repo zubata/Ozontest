@@ -19,7 +19,7 @@ public class Hooks {
     @After
     public void finish(Scenario scenario) {
         if(scenario.isFailed()) takeScreenshot();
-        //Initial.getDriver().quit();
+        Initial.getDriver().quit();
     }
 
     @Attachment(type = "image/png", value = "Screenshot")
